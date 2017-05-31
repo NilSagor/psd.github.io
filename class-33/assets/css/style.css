@@ -1,0 +1,134 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+    font-family: 'Changa One', cursive;
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+   
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.fullwidth-bg-area{background-image: url(../img/bg-1.jpg);}
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin-top: -70px;
+    margin-bottom: -70px;
+    padding: 120px 70px;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.dark-bg {
+    background: #2b2f40;
+    color: #fff;
+}
+
+.border-btn {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #cca876;
+    padding: 10px 40px;
+}
+
+.margin-minus .border-btn {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.box-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.author-name {
+    font-family: roboto;
+    font-size: 24px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 45px;
+}
+
+.author-name span {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .3;
+}
+
+.author-name:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    background: #fff;
+}
+
+.box-content {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.box-content:before {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    content: "";
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.box-content:after {
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    content: "";
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
