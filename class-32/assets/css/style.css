@@ -1,0 +1,104 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+    font-family: 'Changa One', cursive;
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+   
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-promo-box{background-image: url(http://unsplash.it/200x280);}
+.promo-box-2{background-image: url(http://unsplash.it/200x280);}
+.promo-box-3{background-image: url(http://unsplash.it/200x280);}
+
+.single-promo-box {
+    display: block;
+    position: relative;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.promo-content {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+}
+
+.promo-content h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.single-promo-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #999;
+}
+
+/*scrolltotop bar*/
+.scrollToTop {
+    background: #33A1FF none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    top: 500px;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+    z-index: 999;
+}
+.scrollToTop:hover, .scrollToTop:focus {
+    color: #fff;
+}
+.scrollToTop:hover{background: #000;}
+
+
