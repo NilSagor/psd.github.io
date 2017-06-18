@@ -1,0 +1,146 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+    font-family: 'Changa One', cursive;
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+   
+}
+
+.section-absolute-bg{ background-image: url(http://unsplash.it/1400); } 
+.absolute-bg-2{ background-image: url(http://unsplash.it/1400); }
+
+.section-padding {
+    background: #222931;
+    color: #9eb3bd;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+    padding:80px 0;
+}
+
+.section-padding h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.bordered-btn {
+    border: 1px solid #787d82;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.box-content {
+    padding-left: 40px;
+    padding-right: 70px;
+    position: relative;
+}
+
+.box-content:before {
+    background: #767a7f;
+    content: "";
+    height: 65%;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+.bordered-btn:hover {
+    background: #9ebebd;
+    border: 1px solid #9eb3bd;
+    color: #222931;
+}
+
+.section-absolute-bg {
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+.section-absolute-bg:before {
+    background: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.absolute-bg-left
+ .section-absolute-bg {
+    left: 0;
+    right: auto;
+}
+
+.absolute-bg-left .box-content {
+    margin-left: 70px;
+    padding-right: 0;
+}
+
+.absolute-bg-left .box-content:after {
+    right: auto;
+    left: -118px;
+    transform: rotate(180deg);
+}
+
+.box-content:after {
+    border-bottom: 15px solid transparent;
+    border-left: 35px solid #222931;
+    border-top: 15px solid transparent;
+    content: "";
+    position: absolute;
+    right: -48px;
+    top: 50%;
+    margin-top: -17px;
+    z-index: 999;
+}
+
