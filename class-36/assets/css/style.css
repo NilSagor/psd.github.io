@@ -1,0 +1,199 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+    font-family: 'Changa One', cursive;
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+   
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.promo-boxex-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.single-promo-box {
+    height: 350px;
+    width: 50%;
+    float: left;
+    display: table;
+    text-align: center;
+}
+
+.promo-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-promo-box:nth-child(2) {
+    background: #d8889b;
+    color:#fff;
+}
+
+.single-promo-box:nth-child(3) {
+    background: #7dbac0;
+    color: #fff;
+}
+
+.promo-icon:before {
+    font-size: 70px;
+}
+
+.single-promo-box
+ h2 {
+    font-size: 28px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.boxed-btn {
+    background: #7dbace;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.single-promo-box
+ h2:after {
+    position: absolute;
+    height: 2px;
+    left: 50%;
+    width: 50px;
+    margin-left: -25px;
+    content: "";
+    background: #d8889b;
+    bottom: 0;
+}
+
+.single-promo-box {background: #fff;}
+
+.single-promo-box .boxed-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.promo-box-tablecell {
+    padding-top: 70px;
+    transition: .3s;
+}
+
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+
+.single-promo-box:hover .boxed-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-promo-box:nth-child(2),.single-promo-box:nth-child(3) {
+    color: #fff;
+}
+
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+    background: #fff;
+}
+
+.single-promo-box:nth-child(4) h2:after{
+    background:#7dbace;
+}
+
+.single-promo-box:nth-child(4) .promo-icon{
+    color:#7dbace;
+}
+
+.single-promo-box:nth-child(2) .boxed-btn, .single-promo-box:nth-child(3) .boxed-btn{
+    background-color:#fff;
+    color:#333;
+}
+
+.section-title h3 {
+    color: #7bbacf;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.section-title h2 {
+    color: #555;
+    font-weight: 900;
+    margin: 10px 0 40px;
+}
+
+.section-title h4 {
+    color: #454850;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+
+.section-title p {
+    color: #888a8c;
+    margin: 0;
+}
+
+.section-btn {
+    margin-top: 50px;
+}
+
+.bordered-btn {
+    border: 2px solid #7bbafc;
+    border-radius: 30px;
+    color: #7bbafc;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .3s;
+}
+
+.bordered-btn:hover {
+    color: #000;
+}
+
+.right-side-content {
+    padding: 90px 50px;
+}
