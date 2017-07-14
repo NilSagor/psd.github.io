@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+    font-family: 'Changa One', cursive;
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+   
+}
+
+.team-bg{
+    background-image: url(../img/member-2.jpg);
+}
+.team-bg-2{
+    background-image: url(../img/member-3.jpg);
+}
+.team-bg-3{
+    background-image: url(../img/member-4.png);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title:before {
+    position: absolute;
+    right: 0;
+    height: 1px;
+    width: 70%;
+    content: "";
+    background: #000;
+    top: -30px;
+}
+
+.section-title {
+    position: relative;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 700;
+    transform: rotate(270deg);
+    margin-top: 220px;
+    width: 300px;
+    margin-bottom: 100px;
+    margin-right: -50px;
+    margin-left: -60px;
+}
+
+.team-bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 50px;
+}
+
+.border-content {
+    border: 1px solid #333;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.border-content h3 {
+    font-size: 20px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+
+.team-title {
+    margin-top: -12px;
+}
+
+.col-md-4:nth-child(2), .single-team-member {
+    margin-top: 100px;
+}
